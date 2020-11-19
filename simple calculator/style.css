@@ -1,0 +1,40 @@
+body{
+    background: plum;
+}
+.box{
+    width: 450px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:lavender;
+    padding: 50px;
+    text-align: center;
+}
+.box h3{
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 5%;
+} 
+input[type="text"]{
+    height:45px;
+    font-size:22px
+}
+button{
+    background:rgb(147, 115, 179);
+    border: none;
+    padding: 10px 25px;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+input[type="radio"]{
+    width: 18px;
+    height: 18px;
+}
+b{
+    font-size: 28px;
+}
